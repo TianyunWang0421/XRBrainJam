@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Models.meta
+    - Assets/Models/coffee-shop.meta
+    - Assets/Models/coffee-shop/source.meta
+    - Assets/Models/coffee-shop/textures.meta
+    - Assets/Models/coffee-shop/textures/Ceiling.mat
+    - Assets/Models/coffee-shop/textures/Ceiling.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_ArrowSign.mat
+    - Assets/Models/coffee-shop/textures/MAT_ArrowSign.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_BabyBottle.mat
+    - Assets/Models/coffee-shop/textures/MAT_BabyBottle.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_BabyBottleGlass.mat
+    - Assets/Models/coffee-shop/textures/MAT_BabyBottleGlass.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_BarShelf.mat
+    - Assets/Models/coffee-shop/textures/MAT_BarShelf.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_BigCoffeeCup.mat
+    - Assets/Models/coffee-shop/textures/MAT_BigCoffeeCup.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_BigOrderSign.mat
+    - Assets/Models/coffee-shop/textures/MAT_BigOrderSign.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_BlackBoard.mat
+    - Assets/Models/coffee-shop/textures/MAT_BlackBoard.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_Cashier.mat
+    - Assets/Models/coffee-shop/textures/MAT_Cashier.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_CashierScreen.mat
+    - Assets/Models/coffee-shop/textures/MAT_CashierScreen.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_FireExtinguisher.mat
+    - Assets/Models/coffee-shop/textures/MAT_FireExtinguisher.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_Floor.mat
+    - Assets/Models/coffee-shop/textures/MAT_Floor.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_FoodGlassShowcase.mat
+    - Assets/Models/coffee-shop/textures/MAT_FoodGlassShowcase.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_FoodGlassShowcase1.mat
+    - Assets/Models/coffee-shop/textures/MAT_FoodGlassShowcase1.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_Foodcart.mat
+    - Assets/Models/coffee-shop/textures/MAT_Foodcart.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_Glass.mat
+    - Assets/Models/coffee-shop/textures/MAT_Glass.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_GlassWall.mat
+    - Assets/Models/coffee-shop/textures/MAT_GlassWall.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_GlassWallPilla.mat
+    - Assets/Models/coffee-shop/textures/MAT_GlassWallPilla.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_KeyHolder.mat
+    - Assets/Models/coffee-shop/textures/MAT_KeyHolder.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_Keys.mat
+    - Assets/Models/coffee-shop/textures/MAT_Keys.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_Mug.mat
+    - Assets/Models/coffee-shop/textures/MAT_Mug.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_MugGreen.mat
+    - Assets/Models/coffee-shop/textures/MAT_MugGreen.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_MugPeach.mat
+    - Assets/Models/coffee-shop/textures/MAT_MugPeach.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_MugYellow.mat
+    - Assets/Models/coffee-shop/textures/MAT_MugYellow.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_Nespresso.mat
+    - Assets/Models/coffee-shop/textures/MAT_Nespresso.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_SignText.mat
+    - Assets/Models/coffee-shop/textures/MAT_SignText.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_SmallOrderSign.mat
+    - Assets/Models/coffee-shop/textures/MAT_SmallOrderSign.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_SmallTable.mat
+    - Assets/Models/coffee-shop/textures/MAT_SmallTable.mat.meta
+    - Assets/Models/coffee-shop/textures/MAT_Spotlight.mat
+    - Assets/Models/coffee-shop/textures/MAT_Spotlight.mat.meta
+    - Assets/Models/coffee-shop/textures/MOD_LifeOfPigeonAssetsNewDesign.fbx
+    - Assets/Models/coffee-shop/textures/MOD_LifeOfPigeonAssetsNewDesign.fbx.meta
+    - Assets/Models/coffee-shop/textures/TEX_ArrowOrderSign_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_ArrowOrderSign_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_BabyBottleGlassDesign.png
+    - Assets/Models/coffee-shop/textures/TEX_BabyBottleGlassDesign.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_BabyBottle_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_BabyBottle_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_BarShelf_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_BarShelf_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_BigCoffeeCup_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_BigCoffeeCup_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_BigOrderHereSign_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_BigOrderHereSign_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_BlackBoardAndFoodSign_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_BlackBoardAndFoodSign_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_CashierScreenOrderHere_Alpha.png
+    - Assets/Models/coffee-shop/textures/TEX_CashierScreenOrderHere_Alpha.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_CashierScreenOrderHere_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_CashierScreenOrderHere_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_Cashier_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_Cashier_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_Door_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_Door_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_FireExtinguisher_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_FireExtinguisher_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_Floor_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_Floor_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_Floor_Normal.png
+    - Assets/Models/coffee-shop/textures/TEX_Floor_Normal.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_FoodCart_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_FoodCart_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_FoodCart_Metallic.png
+    - Assets/Models/coffee-shop/textures/TEX_FoodCart_Metallic.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_FoodGlassShowcase_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_FoodGlassShowcase_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_GlassWallPillar_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_GlassWallPillar_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_KeyHolder_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_KeyHolder_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_Keys_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_Keys_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_Mug_Green_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_Mug_Green_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_Mug_LightBlue_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_Mug_LightBlue_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_Mug_Peach_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_Mug_Peach_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_Mug_Yellow_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_Mug_Yellow_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_Nespresso_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_Nespresso_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_Nespresso_Height.png
+    - Assets/Models/coffee-shop/textures/TEX_Nespresso_Height.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_SignText.png
+    - Assets/Models/coffee-shop/textures/TEX_SignText.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_SmallOrderHereSign_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_SmallOrderHereSign_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_SmallTable_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_SmallTable_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_SpotLight_Alpha.png
+    - Assets/Models/coffee-shop/textures/TEX_SpotLight_Alpha.png.meta
+    - Assets/Models/coffee-shop/textures/TEX_SpotLight_BaseColor.png
+    - Assets/Models/coffee-shop/textures/TEX_SpotLight_BaseColor.png.meta
+    - Assets/Models/coffee-shop/textures/internal_ground_ao_texture.jpeg
+    - Assets/Models/coffee-shop/textures/internal_ground_ao_texture.jpeg.meta
+    - Assets/Oculus/VR/Scenes/Room.unity
+    - Assets/PostprocessingProfiles/profile1.asset
+    - Assets/XRBrainJam/Mechanics/New Scene.unity
+    - 
+    m_Values: 010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: PostProcessingFiles
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
