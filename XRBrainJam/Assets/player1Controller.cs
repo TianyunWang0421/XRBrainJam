@@ -24,8 +24,8 @@ public class player1Controller : MonoBehaviour
     public AudioSource radio;
     public AudioSource noisyGuest;
     public AudioSource petition;
-
-
+    public AudioSource ambientSound;
+    public AudioClip[] interactionClips;
     public PostProcessVolume volume;
     private Vignette vignette;
     private Bloom bloom;
@@ -96,11 +96,12 @@ public class player1Controller : MonoBehaviour
         }
         else if (scrCounter == 8 && Input.GetKey(KeyCode.A))
         {
+            ambientSound.volume = 1;
             //Your Vision Blurs
             if (vignette.intensity.value < 1)
             {
-                vignette.intensity.value = vignette.intensity.value + Time.deltaTime / 4;
-                bloom.intensity.value = bloom.intensity.value + Time.deltaTime * 5;
+                vignette.intensity.value = vignette.intensity.value + Time.deltaTime / 5;
+                bloom.intensity.value = bloom.intensity.value + Time.deltaTime * 4;
             }
             else
             {
@@ -108,7 +109,7 @@ public class player1Controller : MonoBehaviour
             }
         }
 
-        else if (scrCounter == 8 && Input.GetKey(KeyCode.A))
+        else if (scrCounter == 9 && Input.GetKey(KeyCode.B))
         {
 
         }
