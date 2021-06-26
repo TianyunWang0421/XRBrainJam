@@ -230,6 +230,7 @@ public class OVRGazePointer : OVRCursor {
     /// </summary>
     public void RequestHide()
     {
+        
         if (!dimOnHideRequest)
         {
             Hide();
