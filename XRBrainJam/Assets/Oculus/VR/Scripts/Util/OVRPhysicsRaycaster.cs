@@ -14,15 +14,12 @@ using System.Collections.Generic;
 
 namespace UnityEngine.EventSystems
 {
-    
     /// <summary>
     /// Simple event system using physics raycasts. Very closely based on UnityEngine.EventSystems.PhysicsRaycaster
     /// </summary>
     [RequireComponent(typeof(OVRCameraRig))]
     public class OVRPhysicsRaycaster : BaseRaycaster
     {
-
-        public GameObject selectedObject;
         /// <summary>
         /// Const to use for clarity when no event mask is set
         /// </summary>
@@ -78,7 +75,6 @@ namespace UnityEngine.EventSystems
         {
             get { return m_EventMask; }
             set { m_EventMask = value; }
-            
         }
 
 
@@ -102,7 +98,7 @@ namespace UnityEngine.EventSystems
             float dist = eventCamera.farClipPlane - eventCamera.nearClipPlane;
 
             var hits = Physics.RaycastAll(ray, dist, finalEventMask);
-            
+
             if (hits.Length > 1)
                 System.Array.Sort(hits, (r1, r2) => r1.distance.CompareTo(r2.distance));
 
@@ -118,13 +114,10 @@ namespace UnityEngine.EventSystems
                         index = resultAppendList.Count,
                         worldPosition = hits[0].point,
                         worldNormal = hits[0].normal,
-                        
-                };
-                    selectedObject = (result.gameObject);
+                    };
                     resultAppendList.Add(result);
                 }
             }
-           
         }
 
         /// <summary>

@@ -11,6 +11,7 @@ public class player1Controller : MonoBehaviour
     public Animator fadeInOutAnimator;
     public Animator waiterAnimator;
     public NavMeshAgent waiterAgent;
+    public WaiterActions waiterAction;
     public Transform WaiterWaitArea;
     
 
@@ -18,8 +19,11 @@ public class player1Controller : MonoBehaviour
     public Transform[] noisyCrowdTargetLocations;
 
     public GameObject menuObject;
-
-
+    public AudioSource audioSource;
+    public AudioSource bell;
+    public AudioSource radio;
+    public AudioSource noisyGuest;
+    public AudioSource petition;
 
 
     public PostProcessVolume volume;
@@ -28,6 +32,7 @@ public class player1Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         scrCounter = 1;
         volume.profile.TryGetSettings(out vignette);
         volume.profile.TryGetSettings(out bloom);
@@ -36,55 +41,78 @@ public class player1Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+
+
+
+
+        if (scrCounter == 1 && Input.GetKeyDown(KeyCode.A))
         {
+            waiterAction.playClip(0);
             fadeInOutAnimator.SetTrigger("fadeIn");
             scrCounter = 2;
         }
 
-        if (Input.GetKeyDown(KeyCode.B))
+        else if (scrCounter == 2 && Input.GetKeyDown(KeyCode.A))
         {
             waiterAgent.SetDestination(WaiterWaitArea.position);
             scrCounter = 3;
         }
 
-        if (Input.GetKeyDown(KeyCode.C))
+        else if (scrCounter == 3 && Input.GetKeyDown(KeyCode.A))
         {
-            for(int i=0; i<=noisyCrowd.Length; i++)
+            bell.Play();
+            for (int i = 0; i < noisyCrowd.Length; i++)
             {
+
                 noisyCrowd[i].GetComponent<NavMeshAgent>().SetDestination(noisyCrowdTargetLocations[i].position);
-                
             }
 
-            
+            scrCounter = 4;
         }
 
-        if (Input.GetKeyDown(KeyCode.D))
+        else if (scrCounter == 4 && Input.GetKeyDown(KeyCode.A))
         {
+            noisyGuest.Play();
+            scrCounter = 5;
+        }
+        else if (scrCounter == 5 && Input.GetKeyDown(KeyCode.A))
+        {
+            waiterAction.playClip(1);
+            scrCounter = 6;
+        }
+
+        else if (scrCounter == 6 && Input.GetKeyDown(KeyCode.A))
+        {
+            radio.volume = 1f;
+            scrCounter = 7;
             //RadioVolume
-
         }
-        if (Input.GetKeyDown(KeyCode.E))
+        else if (scrCounter == 7 && Input.GetKey(KeyCode.A))
         {
-            //PetitionSigning
-        }
+            petition.Play();
+            scrCounter = 8;
+            //Petition
 
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            //TryToCompleteMenu Ordering
-           
         }
-
-        if (Input.GetKey(KeyCode.H))
+        else if (scrCounter == 8 && Input.GetKey(KeyCode.A))
         {
             //Your Vision Blurs
-            if (vignette.intensity.value<1)
+            if (vignette.intensity.value < 1)
             {
                 vignette.intensity.value = vignette.intensity.value + Time.deltaTime / 4;
-                bloom.intensity.value = bloom.intensity.value + Time.deltaTime *5;
+                bloom.intensity.value = bloom.intensity.value + Time.deltaTime * 5;
             }
-                
+            else
+            {
+                scrCounter = 9;
+            }
+        }
+
+        else if (scrCounter == 8 && Input.GetKey(KeyCode.A))
+        {
 
         }
+    
     }
+
 }
