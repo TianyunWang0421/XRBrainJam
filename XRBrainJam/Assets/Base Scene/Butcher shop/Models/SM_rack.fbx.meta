@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: e77782aac847b90458618ddc96d36ab9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: SM_entry
+    100004: SM_rack_1
+    100006: SM_rack_2
+    100008: SM_rack_wood
+    100010: SM_rack_wood_2
+    100012: SM_Radiator
+    100014: SM_rack_wood_2.001
+    100016: SM_rack_wood_2.002
+    100018: SM_rack_wood_2.003
+    100020: SM_rack_wood_2.004
+    100022: SM_rack_wood_2.005
+    400000: //RootNode
+    400002: SM_entry
+    400004: SM_rack_1
+    400006: SM_rack_2
+    400008: SM_rack_wood
+    400010: SM_rack_wood_2
+    400012: SM_Radiator
+    400014: SM_rack_wood_2.001
+    400016: SM_rack_wood_2.002
+    400018: SM_rack_wood_2.003
+    400020: SM_rack_wood_2.004
+    400022: SM_rack_wood_2.005
+    2100000: M_Rack
+    2300000: //RootNode
+    2300002: SM_entry
+    2300004: SM_rack_1
+    2300006: SM_rack_2
+    2300008: SM_rack_wood
+    2300010: SM_rack_wood_2
+    2300012: SM_Radiator
+    2300014: SM_rack_wood_2.001
+    2300016: SM_rack_wood_2.002
+    2300018: SM_rack_wood_2.003
+    2300020: SM_rack_wood_2.004
+    2300022: SM_rack_wood_2.005
+    3300000: //RootNode
+    3300002: SM_entry
+    3300004: SM_rack_1
+    3300006: SM_rack_2
+    3300008: SM_rack_wood
+    3300010: SM_rack_wood_2
+    3300012: SM_Radiator
+    3300014: SM_rack_wood_2.001
+    3300016: SM_rack_wood_2.002
+    3300018: SM_rack_wood_2.003
+    3300020: SM_rack_wood_2.004
+    3300022: SM_rack_wood_2.005
+    4300000: Rack
+    4300002: SM_Radiator
+    4300004: SM_rack_wood
+    4300006: SM_rack_wood_2
+    4300008: SM_entry
+    4300010: SM_rack_2
+    4300012: SM_rack_1
+    4300014: SM_rack_wood_2.005
+    4300016: SM_rack_wood_2.004
+    4300018: SM_rack_wood_2.003
+    4300020: SM_rack_wood_2.002
+    4300022: SM_rack_wood_2.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Rack
+    second: {fileID: 2100000, guid: b592049957cd8a14296b23b6ee0d0957, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

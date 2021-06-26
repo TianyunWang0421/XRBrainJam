@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: 0d01a0a46c8df7545800da4ac8515a4d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: SM_Boxes_1
+    100004: SM_Boxes_2
+    100006: SM_Boxes_3
+    100008: SM_entry
+    100010: SM_Toilet_door_m
+    100012: SM_Toilet_door_w
+    100014: SM_toilet_mirror
+    100016: SM_toilet_mirror_2
+    400000: //RootNode
+    400002: SM_Boxes_1
+    400004: SM_Boxes_2
+    400006: SM_Boxes_3
+    400008: SM_entry
+    400010: SM_Toilet_door_m
+    400012: SM_Toilet_door_w
+    400014: SM_toilet_mirror
+    400016: SM_toilet_mirror_2
+    2100000: M_Boxes
+    2300000: SM_Boxes_1
+    2300002: SM_Boxes_2
+    2300004: SM_Boxes_3
+    2300006: SM_entry
+    2300008: SM_Toilet_door_m
+    2300010: SM_Toilet_door_w
+    2300012: SM_toilet_mirror
+    2300014: SM_toilet_mirror_2
+    3300000: SM_Boxes_1
+    3300002: SM_Boxes_2
+    3300004: SM_Boxes_3
+    3300006: SM_entry
+    3300008: SM_Toilet_door_m
+    3300010: SM_Toilet_door_w
+    3300012: SM_toilet_mirror
+    3300014: SM_toilet_mirror_2
+    4300000: SM_Boxes_1
+    4300002: SM_Toilet_door_w
+    4300004: SM_Toilet_door_m
+    4300006: SM_Boxes_3
+    4300008: SM_toilet_mirror_2
+    4300010: SM_toilet_mirror
+    4300012: SM_entry
+    4300014: SM_Boxes_2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boxes
+    second: {fileID: 2100000, guid: 320b322868c7e9141846694b25b6b9e2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
