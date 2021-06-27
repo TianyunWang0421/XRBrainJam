@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/zeven/player2.unity
+- path: Assets/Base Scene/Base Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
