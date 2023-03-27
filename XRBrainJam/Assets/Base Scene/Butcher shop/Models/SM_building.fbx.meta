@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: 15a80b7d61f019b43a6968fd622045c4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: SM_Border
+    100002: //RootNode
+    100004: SM_Door_1
+    100006: SM_Door_2
+    100008: SM_Ground
+    100010: SM_Railing
+    100012: SM_Road
+    100014: SM_Wall
+    100016: SM_Wall_out
+    100018: SM_Window_1
+    100020: SM_Window_2
+    100022: Street_props
+    100024: SM_stock
+    100026: SM_stock_rack
+    100028: SM_Trashbin
+    100030: SM_visor
+    100032: SM_door_2
+    100034: SM_Railing_part_1
+    400000: SM_Border
+    400002: //RootNode
+    400004: SM_Door_1
+    400006: SM_Door_2
+    400008: SM_Ground
+    400010: SM_Railing
+    400012: SM_Road
+    400014: SM_Wall
+    400016: SM_Wall_out
+    400018: SM_Window_1
+    400020: SM_Window_2
+    400022: Street_props
+    400024: SM_stock
+    400026: SM_stock_rack
+    400028: SM_Trashbin
+    400030: SM_visor
+    400032: SM_door_2
+    400034: SM_Railing_part_1
+    2100000: M_wall
+    2100002: M_wall_black
+    2100004: Material.015
+    2100006: Material.018
+    2100008: M_Ground
+    2100010: M_Road
+    2100012: M_Road_border
+    2100014: M_door
+    2100016: M_Glass
+    2100018: M_Border
+    2100020: M_Celling
+    2100022: M_floor
+    2100024: Material.001
+    2100026: M_Stret_props
+    2300000: SM_Border
+    2300002: SM_Door_1
+    2300004: SM_Door_2
+    2300006: SM_Ground
+    2300008: SM_Railing
+    2300010: SM_Road
+    2300012: SM_Wall
+    2300014: SM_Wall_out
+    2300016: SM_Window_1
+    2300018: SM_Window_2
+    2300020: Street_props
+    2300022: SM_stock
+    2300024: SM_stock_rack
+    2300026: SM_Trashbin
+    2300028: SM_visor
+    2300030: SM_door_2
+    2300032: SM_Railing_part_1
+    3300000: SM_Border
+    3300002: SM_Door_1
+    3300004: SM_Door_2
+    3300006: SM_Ground
+    3300008: SM_Railing
+    3300010: SM_Road
+    3300012: SM_Wall
+    3300014: SM_Wall_out
+    3300016: SM_Window_1
+    3300018: SM_Window_2
+    3300020: Street_props
+    3300022: SM_stock
+    3300024: SM_stock_rack
+    3300026: SM_Trashbin
+    3300028: SM_visor
+    3300030: SM_door_2
+    3300032: SM_Railing_part_1
+    4300000: SM_Wall_out
+    4300002: SM_Railing
+    4300004: SM_Ground
+    4300006: SM_Road
+    4300008: SM_Window_2
+    4300010: SM_Door_2
+    4300012: SM_Door_1
+    4300014: SM_Window_1
+    4300016: SM_Border
+    4300018: SM_Wall
+    4300020: Street_props
+    4300022: SM_stock
+    4300024: SM_stock_rack
+    4300026: SM_Trashbin
+    4300028: SM_visor
+    4300030: SM_door_2
+    4300032: SM_Railing_part_1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Border
+    second: {fileID: 2100000, guid: 4e46ff85884521d4bb613b03e0f96e60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Brick_black
+    second: {fileID: 2100000, guid: ef9542e724a73994e88427a0e3f7fba4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Brick_white
+    second: {fileID: 2100000, guid: f080d55fed58ff540ba4a47aea50e57c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Celling
+    second: {fileID: 2100000, guid: 7b8839c7c5d86684aa3655c69d63be96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Concreate
+    second: {fileID: 2100000, guid: bb3be7a83271a2a4b81abb89045f0380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Glass
+    second: {fileID: 2100000, guid: 425219a86c24d9e4f914b44328759ac9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Glass_norm
+    second: {fileID: 2100000, guid: c020a1e3acee48343937b9b8d030515a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Ground
+    second: {fileID: 2100000, guid: 149101fabe27f2741b0934b23c810e5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Latex
+    second: {fileID: 2100000, guid: d9d2379bc97e0c043bbb53f1b7e4fa25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Metal
+    second: {fileID: 2100000, guid: ae5511dad76084141b97d0679c2d670c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Road
+    second: {fileID: 2100000, guid: a214804dbbac52640986422264281b95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Road_border
+    second: {fileID: 2100000, guid: ad575cc8b8f6f4943a2a2fd7478c0f78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Roof
+    second: {fileID: 2100000, guid: 9d41e259263501344a9a00c79dc2a151, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Siding
+    second: {fileID: 2100000, guid: 061b26c91fbf4c847b5f23fd49021fb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Street_props
+    second: {fileID: 2100000, guid: e9a7c62ff3006e8488d53c9a119983c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Stret_props
+    second: {fileID: 2100000, guid: 2fb2818cb1d26174ba5c48f4273b6de8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wallout
+    second: {fileID: 2100000, guid: f433c1aa7b1bda740a76980d04f562bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_brick_red
+    second: {fileID: 2100000, guid: a6b26ac3771b12d438533641ea178cd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_door
+    second: {fileID: 2100000, guid: cb2e6b4a7182ede44865a89404834732, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_floor
+    second: {fileID: 2100000, guid: c0fe0f124fadcad4db0792a4cc76e072, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_rail
+    second: {fileID: 2100000, guid: bf514f4ca104b724eb793a44740b4a8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_wall
+    second: {fileID: 2100000, guid: 3e3f5d5c153e7c843916bb42e34cfe96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_wall_black
+    second: {fileID: 2100000, guid: 737f02c96c1e7024282a0d32cbe12ff9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 862f8b6a979c59a49b6efb0e01f3ddf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.015
+    second: {fileID: 2100000, guid: bcf1d9e9555d1f946aa10cfda209f374, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.018
+    second: {fileID: 2100000, guid: da984b0f1acdaed48827987578a77d5b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

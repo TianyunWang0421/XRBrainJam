@@ -20,6 +20,10 @@ public class PostProcessingController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        vignette.intensity.value = slider.value; 
+        vignette.intensity.value = slider.value;
+        if (Input.GetKey(KeyCode.H))
+        {
+            vignette.intensity.value = 1;
+        }
     }
 }
